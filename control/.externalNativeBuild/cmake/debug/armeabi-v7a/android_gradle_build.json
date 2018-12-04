@@ -1,0 +1,95 @@
+
+{
+	"buildFiles" : 
+	[
+		"E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"G:\\eclips\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\guanqg\\Desktop\\A\\Tag\\Brain_H5_10040\\Control_44797\\control\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"zmodem-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "zmodem",
+			"buildCommand" : "G:\\eclips\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\guanqg\\Desktop\\A\\Tag\\Brain_H5_10040\\Control_44797\\control\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target zmodem",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=G:/eclips/sdk/ndk-bundle-16/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=G:/eclips/sdk/ndk-bundle-16/sysroot -Dzmodem_EXPORTS  -isystem G:/eclips/sdk/ndk-bundle-16/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/src/main/cpp/zmodem/crc16.c",
+					"workingDirectory" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=G:/eclips/sdk/ndk-bundle-16/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=G:/eclips/sdk/ndk-bundle-16/sysroot -Dzmodem_EXPORTS  -isystem G:/eclips/sdk/ndk-bundle-16/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/src/main/cpp/zmodem/crc32.c",
+					"workingDirectory" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=G:/eclips/sdk/ndk-bundle-16/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=G:/eclips/sdk/ndk-bundle-16/sysroot -Dzmodem_EXPORTS  -isystem G:/eclips/sdk/ndk-bundle-16/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/src/main/cpp/zmodem/zm_dumpbuffer.c",
+					"workingDirectory" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=G:/eclips/sdk/ndk-bundle-16/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=G:/eclips/sdk/ndk-bundle-16/sysroot -Dzmodem_EXPORTS  -isystem G:/eclips/sdk/ndk-bundle-16/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/src/main/cpp/zmodem/zm_proto.c",
+					"workingDirectory" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=G:/eclips/sdk/ndk-bundle-16/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=G:/eclips/sdk/ndk-bundle-16/sysroot -Dzmodem_EXPORTS  -isystem G:/eclips/sdk/ndk-bundle-16/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/src/main/cpp/zmodem/zm_send.c",
+					"workingDirectory" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=G:/eclips/sdk/ndk-bundle-16/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=G:/eclips/sdk/ndk-bundle-16/sysroot -Dzmodem_EXPORTS  -isystem G:/eclips/sdk/ndk-bundle-16/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/src/main/cpp/zmodem/zm_state.c",
+					"workingDirectory" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=G:/eclips/sdk/ndk-bundle-16/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=G:/eclips/sdk/ndk-bundle-16/sysroot -Dzmodem_EXPORTS  -isystem G:/eclips/sdk/ndk-bundle-16/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/src/main/cpp/zmodem/zm_utils.c",
+					"workingDirectory" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=G:/eclips/sdk/ndk-bundle-16/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=G:/eclips/sdk/ndk-bundle-16/sysroot -Dzmodem_EXPORTS  -isystem G:/eclips/sdk/ndk-bundle-16/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/src/main/cpp/zmodem/zm_watchdog.c",
+					"workingDirectory" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=G:/eclips/sdk/ndk-bundle-16/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=G:/eclips/sdk/ndk-bundle-16/sysroot -Dzmodem_EXPORTS  -isystem G:/eclips/sdk/ndk-bundle-16/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/src/main/cpp/zmodem/sz_main.c",
+					"workingDirectory" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=G:/eclips/sdk/ndk-bundle-16/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=G:/eclips/sdk/ndk-bundle-16/sysroot -Dzmodem_EXPORTS  -isystem G:/eclips/sdk/ndk-bundle-16/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/src/main/cpp/zmodem.c",
+					"workingDirectory" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "E:/guanqg/Desktop/A/Tag/Brain_H5_10040/Control_44797/control/build/intermediates/cmake/debug/obj/armeabi-v7a/libzmodem.so",
+			"toolchain" : "2223329569"
+		}
+	},
+	"toolchains" : 
+	{
+		"2223329569" : 
+		{
+			"cCompilerExecutable" : "G:/eclips/sdk/ndk-bundle-16/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "G:/eclips/sdk/ndk-bundle-16/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

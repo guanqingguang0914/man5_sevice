@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "E:\\guanqg\\Desktop\\A\\Tag\\Brain_H5_10040\\Control_44797\\control\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "G:\\eclips\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\guanqg\\Desktop\\A\\Tag\\Brain_H5_10040\\Control_44797\\control\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "zmodem-Release-armeabi-v7a": {
+      "artifactName": "zmodem",
+      "buildCommand": "G:\\eclips\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\guanqg\\Desktop\\A\\Tag\\Brain_H5_10040\\Control_44797\\control\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target zmodem",
+      "abi": "armeabi-v7a",
+      "output": "E:\\guanqg\\Desktop\\A\\Tag\\Brain_H5_10040\\Control_44797\\control\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libzmodem.so"
+    }
+  }
+}

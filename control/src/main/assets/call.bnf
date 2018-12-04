@@ -1,0 +1,5 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar call;
+!slot <command>;
+!start <command>;
+<command>:前进|后退|左转|右转|停止;

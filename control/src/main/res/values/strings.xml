@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Control</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="guoda">Data is too large to display</string>
+    <string name="download_sucess">Start run!</string>
+    <string name="update_sucess">Firmware update sucess!</string>
+    <string name="update_fail">Firmware update fail!</string>
+</resources>

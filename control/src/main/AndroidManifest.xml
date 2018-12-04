@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abilix.control"
+    android:versionCode="1277"
+    android:versionName="1.0.12.77">
+
+    <uses-sdk
+        android:minSdkVersion="20"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"></uses-permission>
+
+    <!--
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+    -->
+    <!--
+    <uses-feature
+        android:name="android.hardware.camera"
+        />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+         />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        /> 
+
+    <uses-permission android:name="android.hardware.camera.front" />
+    <uses-permission android:name="android.hardware.camera.front.autofocus" />
+    -->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.front" />
+    <uses-feature android:name="android.hardware.camera.front.autofocus" />
+
+    <uses-permission android:name="android.hardware.camera.front" />
+    <uses-permission android:name="android.hardware.camera.front.autofocus" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <!--
+         <uses-feature 
+        android:name="android.hardware.camera.autofocus" />
+    -->
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="ControlApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+
+        <!--<activity-->
+            <!--android:name="com.abilix.control.MainActivity"-->
+            <!--android:label="@string/app_name"-->
+            <!--android:screenOrientation="portrait" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+                <!--<category android:name="android.intent.category.abilix_launcher" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity android:name=".EngineTestActivity"
+           android:label="@string/app_name"
+           android:screenOrientation="portrait" >
+           <intent-filter>
+               <action android:name="android.intent.action.MAIN" />
+
+               <category android:name="android.intent.category.LAUNCHER" />
+               <category android:name="android.intent.category.abilix_launcher" />
+           </intent-filter>
+       </activity>-->
+       <!--<activity android:name=".H34Activity">
+           android:label="@string/app_name"
+           android:screenOrientation="portrait" >
+           <intent-filter>
+               <action android:name="android.intent.action.MAIN" />
+
+               <category android:name="android.intent.category.LAUNCHER" />
+               <category android:name="android.intent.category.abilix_launcher" />
+           </intent-filter>
+       </activity>-->
+       <!-- <activity android:name=".HGetTempActivity">
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.abilix_launcher" />
+            </intent-filter>
+        </activity>-->
+        <service android:name="com.abilix.control.MainServer">
+            <intent-filter android:priority="1000">
+                <action android:name="com.abilix.control.aidl.IControl" />
+            </intent-filter>
+        </service>
+        <service android:name="com.abilix.robot.walktunner.SensorImuService" />
+        <service android:name="com.abilix.moco.gaitx.kernal.execute.SensorImuServiceForH5" />
+        <receiver android:name="com.abilix.control.patch.SelfProtectBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.abilix.control.utils.SelfProtectBroadcast" />
+                <action android:name="com.abilix.control.sensor_result" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

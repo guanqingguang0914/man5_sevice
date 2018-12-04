@@ -1,0 +1,15 @@
+Executable : G:\eclips\sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\guanqg\Desktop\A\Tag\Brain_H5_10040\Control_44797\control
+-BE:\guanqg\Desktop\A\Tag\Brain_H5_10040\Control_44797\control\.externalNativeBuild\cmake\debug\armeabi
+-DANDROID_ABI=armeabi
+-DANDROID_PLATFORM=android-19
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\guanqg\Desktop\A\Tag\Brain_H5_10040\Control_44797\control\build\intermediates\cmake\debug\obj\armeabi
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=G:\eclips\sdk\ndk-bundle-16
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=G:\eclips\sdk\ndk-bundle-16\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=G:\eclips\sdk\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

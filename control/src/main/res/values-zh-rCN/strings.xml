@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Control</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="guoda">数据过大无法显示</string>
+    <string name="download_sucess">开始执行!</string>
+    <string name="update_sucess">固件升级成功!</string>
+    <string name="update_fail">固件升级失败!</string>
+
+</resources>

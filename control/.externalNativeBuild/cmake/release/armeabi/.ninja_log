@@ -1,0 +1,12 @@
+# ninja log v5
+1	262	0	CMakeFiles/zmodem.dir/src/main/cpp/zmodem/zm_proto.c.o	95c4ed91249568d
+11	282	0	CMakeFiles/zmodem.dir/src/main/cpp/zmodem/zm_watchdog.c.o	573739f232454cc3
+41	308	0	CMakeFiles/zmodem.dir/src/main/cpp/zmodem.c.o	9c43b70c8652838d
+20	339	0	CMakeFiles/zmodem.dir/src/main/cpp/zmodem/sz_main.c.o	24dc975fe7bfd436
+60	365	0	CMakeFiles/zmodem.dir/src/main/cpp/zmodem/crc16.c.o	2a84f463aefa230e
+267	457	0	CMakeFiles/zmodem.dir/src/main/cpp/zmodem/crc32.c.o	34781fc1d3d63fef
+89	475	0	CMakeFiles/zmodem.dir/src/main/cpp/zmodem/zm_send.c.o	706ce631f7fcc071
+308	491	0	CMakeFiles/zmodem.dir/src/main/cpp/zmodem/zm_dumpbuffer.c.o	ddb0129c267f2e2
+283	515	0	CMakeFiles/zmodem.dir/src/main/cpp/zmodem/zm_utils.c.o	b82974eb785d2c65
+339	590	0	CMakeFiles/zmodem.dir/src/main/cpp/zmodem/zm_state.c.o	cc60fb78212c8916
+590	675	0	../../../../build/intermediates/cmake/release/obj/armeabi/libzmodem.so	10ebe845e9569043

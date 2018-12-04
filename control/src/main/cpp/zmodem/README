@@ -1,0 +1,5 @@
+make -f Makefile.host TOPDIR=/home/timur/project/bootloader_f103/zongqiang_zmodem/nuttx/ APPDIR=/home/timur/project/bootloader_f103/zongqiang_zmodem/nuttx/apps/ clean
+cp sz rz ../../../../
+./sz -d /dev/ttyUSB1 /home/timur/project/bootloader_f103/zongqiang_zmodem/update.bin 
+sudo stty -F /dev/ttyUSB1 115200
+sudo stty -F /dev/ttyUSB1 -a
